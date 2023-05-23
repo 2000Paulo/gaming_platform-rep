@@ -17,7 +17,7 @@ body {
 }
 
 #container {
-    height: 700px;
+    height: 200%;
     width: 1500px;
     position: relative;
     overflow: hidden;
