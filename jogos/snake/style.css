@@ -26,6 +26,7 @@ body {
     height: 700px;
     position: relative;
   	width: 550px;
+    cursor: none;
 }
 .tela-canvas {
     

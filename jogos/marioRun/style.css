@@ -10,6 +10,7 @@
 }
 span {
     font-family: 'Press Start 2P', cursive;
+
 }
 
 body {
@@ -26,6 +27,7 @@ body {
     overflow: hidden;
 	background-image: url(img/fundo.jpg);
     /*background: linear-gradient(#87CEEB, #FFFFFF, #FFFFFF);*/
+    cursor: none;
 }
 
 #container #player {
