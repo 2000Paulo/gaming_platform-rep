@@ -4,7 +4,10 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
+.back{
+    color: aliceblue;
+    margin-right: 77.5%;
+}
 span {
     font-family: 'Press Start 2P', cursive;
 }

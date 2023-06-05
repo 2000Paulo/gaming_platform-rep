@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
 }
+.back{
+    position: absolute;
+    margin-bottom: 35%;
+    margin-right: 77%;
+    
+}
 body {
     align-items: center;
     background-image: url(background.jpeg);
