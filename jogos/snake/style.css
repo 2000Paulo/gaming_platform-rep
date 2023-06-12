@@ -3,12 +3,6 @@
     padding: 0;
     margin: 0;
 }
-.back{
-    position: absolute;
-    margin-bottom: 35%;
-    margin-right: 77%;
-    
-}
 body {
     align-items: center;
     background-image: url(background.jpeg);
@@ -26,7 +20,7 @@ body {
     height: 700px;
     position: relative;
   	width: 550px;
-    cursor: none;
+    left: 11%;
 }
 .tela-canvas {
     
@@ -41,8 +35,8 @@ body {
 .canvas{
     
     border-radius: 0,1%;
-    width: 500px;
-    height: 500px;
+    width: 480px;
+    height: 480px;
     position: absolute;
     left: 5px;
     top: 5px;
@@ -51,7 +45,7 @@ body {
     position: absolute;
     top: 82%;
     font-family: 'Press Start 2P', cursive; 
-    left: 260px;
+    left: 280px;
     font-size: 10px;
     color: #fff9f9;
 }
@@ -73,7 +67,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     position: relative;
     top: 200px;
-    right: 385px
+    right: 250px
 
 }
 
@@ -119,59 +113,106 @@ body {
     
     width: 75px;
     height: 75px;
-    
-   
- 
     position: relative;
     top: 36%;
-    right: 43%;
+    right: 500px;
     display: flex;
     
     
-  }
+}
   
-  .stick {
+.stick {
     width: 80px;
     height: 80px;
     
     border-radius: 50%;
     
-  }
+}
   
-  .button {
+.button {
     width: 25px;
     height: 25px;
     background-color: rgb(247, 108, 108);
     color: #000000;
     font-family: 'Press Start 2P', cursive; 
-
     border-radius: 50%;
     position: absolute;
     
-  }
+}
   
-  .top {
+.top {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-  }
+}
   
   .right {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-  }
+}
   
   .bottom {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-  }
+}
   
-  .left {
+.left {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+}
+  
+.voltar img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 100%;
+}
+.barra-navegacao li {
+    display: inline;
   }
   
+  .barra-navegacao a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+  }
+  
+  .barra-navegacao a:hover {
+    background-color: #ccc;
+  }
+  
+  .controle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: relative;
+    top: 270px;
+    right: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .mexe {
+    width: 50px;
+    height: 50px;
+    background-color: #8b0000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+  }
+  
+  .controle:active .mexe {
+    background-color: #0004ff;
+    width: 120px;
+    height: 120px;
+  }
   

@@ -38,11 +38,12 @@
 					velocidade_X = 0;
 					velocidade_Y = velocidade;
 					break;
+				
 			}
 		});
 		
 	//	Atualiza a função jogo
-		setInterval(jogo, 120);
+		setInterval(jogo, 190);
 	//
 		function jogo(){
 			
@@ -135,3 +136,4 @@
 			
 		}
 	}
+	
